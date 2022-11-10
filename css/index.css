@@ -10,7 +10,7 @@ body {
 }
 .header h1 {
     text-align: center;
-    background-color:pink;
+    background-color:rgb(255, 204, 192);
     font-size: 40px;
     color:  rgb(255, 0, 43);
     animation:toLeftFromRight 4s infinite ;
@@ -32,13 +32,20 @@ body {
     text-align: center;
     
 }
+.icon .cake {
+    margin-left: 80px;
+   color:cornflowerblue;
+    margin-top: 21px;
+  
+    border-radius: ;
+}
 .icon h2 {
     color: crimson;
     font-size: 35px;
 }
 .icon i {
-    font-size: 400px;
-    color: rgb(255, 192, 192);
+    font-size: 300px;
+    color: red;
 }
 .chucmung {
     margin-top: 50px;
@@ -48,7 +55,16 @@ body {
     font-size: 18px;
     color:red;
 }
-
+.birth2 {
+    width: 100%;
+    overflow: hidden;
+}
+.birth2 img {
+    width: 100%;
+}
+.icon .hoa {
+    font-size: 30px;
+}
 
 
 
