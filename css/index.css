@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    
+}
+.header h1 {
+    text-align: center;
+    background-color:pink;
+    font-size: 40px;
+    color:  rgb(255, 0, 43);
+    animation:toLeftFromRight 4s infinite ;
+}
+.anh1 {
+    width: 50%;
+   
+}
+
+.anh2 {
+    width: 50%;
+   
+}
+.anh {
+    display: flex;
+    overflow: hidden;
+}
+.icon  {
+    text-align: center;
+    
+}
+.icon h2 {
+    color: crimson;
+    font-size: 35px;
+}
+.icon i {
+    font-size: 400px;
+    color: rgb(255, 192, 192);
+}
+.chucmung {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.chucmung h5 , i {
+    font-size: 18px;
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes toLeftFromRight {
+    49% {
+        transform: translateX(100%)
+    }
+
+    50% {
+        /* opacity: 0; */
+        transform: translateX(-100%)
+    }
+
+    51% {
+        /* opacity: 1 */
+    }
+}
