@@ -5,9 +5,10 @@
 }
 
 body {
-   
+  
     
 }
+
 .header h1 {
     text-align: center;
     background-color:rgb(255, 204, 192);
@@ -65,7 +66,16 @@ body {
 .icon .hoa {
     font-size: 30px;
 }
+.video iframe {
+   position: absolute;
+   top: 329%;
+   left: 20%;
+   
+   
+   transform: translate (-50%, -50%)
 
+   
+}
 
 
 
@@ -98,11 +108,9 @@ body {
     }
 
     50% {
-        /* opacity: 0; */
         transform: translateX(-100%)
-    }
+        
+    } 
 
-    51% {
-        /* opacity: 1 */
-    }
+    
 }
